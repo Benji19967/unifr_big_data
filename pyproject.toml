@@ -1,0 +1,9 @@
+[project]
+name = "unifr_big_data"
+version = "0.1.0"
+description = "Exercises for course unifr big data"
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+dependencies = [
+    "psycopg2>=2.9.13",
+]
