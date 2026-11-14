@@ -36,3 +36,18 @@ Solution:
 ```
 uv run assignments/01/main.py --seed 42
 ```
+
+D. With reference to the schema just introduced, write SQL code to complete the following
+tasks. Don’t use the CONTAINS operator, avoid returning duplicate results, try to use the
+DISTINCT clause only when you really need it, and try to use aggregate operators only
+when they are really needed.
+
+- i. Select the number of conference belonging to each ranking.
+  - `psql -d unifr_big_data < assignments/01/queries/i.sql` 
+- ii. Select all the abstracts of the papers written (or co-written) by the author whose
+name is ‘Alex’ or ‘Alexander’.
+- iii. Select the names of all the authors that cited themselves.
+- iv. Create a view PublishesIn(authorID, confID) containing all the pairs (authorID,
+confID) such that there is at least one publication by authorID accepted at confID.
+- v. Select the title of all the papers co-authored by the author ‘Alex’ (the papers where
+‘Alex’ is the only author should not be part of the result).
