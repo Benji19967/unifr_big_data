@@ -48,6 +48,7 @@ when they are really needed.
 name is ‘Alex’ or ‘Alexander’.
   - `psql -d unifr_big_data < assignments/01/queries/ii.sql` 
 - iii. Select the names of all the authors that cited themselves.
+  - `psql -d unifr_big_data < assignments/01/queries/iii.sql` 
 - iv. Create a view PublishesIn(authorID, confID) containing all the pairs (authorID,
 confID) such that there is at least one publication by authorID accepted at confID.
 - v. Select the title of all the papers co-authored by the author ‘Alex’ (the papers where
