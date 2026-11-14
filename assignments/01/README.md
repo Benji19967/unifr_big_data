@@ -46,6 +46,7 @@ when they are really needed.
   - `psql -d unifr_big_data < assignments/01/queries/i.sql` 
 - ii. Select all the abstracts of the papers written (or co-written) by the author whose
 name is ‘Alex’ or ‘Alexander’.
+  - `psql -d unifr_big_data < assignments/01/queries/ii.sql` 
 - iii. Select the names of all the authors that cited themselves.
 - iv. Create a view PublishesIn(authorID, confID) containing all the pairs (authorID,
 confID) such that there is at least one publication by authorID accepted at confID.
