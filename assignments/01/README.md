@@ -54,3 +54,4 @@ confID) such that there is at least one publication by authorID accepted at conf
   - `psql -d unifr_big_data < assignments/01/queries/iv.sql` 
 - v. Select the title of all the papers co-authored by the author ‘Victor’ (the papers where
 ‘Victor’ is the only author should not be part of the result).
+  - `psql -d unifr_big_data < assignments/01/queries/v.sql` 
