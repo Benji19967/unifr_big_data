@@ -45,12 +45,12 @@ when they are really needed.
 - i. Select the number of conference belonging to each ranking.
   - `psql -d unifr_big_data < assignments/01/queries/i.sql` 
 - ii. Select all the abstracts of the papers written (or co-written) by the author whose
-name is ‘Alex’ or ‘Alexander’.
+name is ‘Victor’.
   - `psql -d unifr_big_data < assignments/01/queries/ii.sql` 
 - iii. Select the names of all the authors that cited themselves.
   - `psql -d unifr_big_data < assignments/01/queries/iii.sql` 
 - iv. Create a view PublishesIn(authorID, confID) containing all the pairs (authorID,
 confID) such that there is at least one publication by authorID accepted at confID.
   - `psql -d unifr_big_data < assignments/01/queries/iv.sql` 
-- v. Select the title of all the papers co-authored by the author ‘Alex’ (the papers where
-‘Alex’ is the only author should not be part of the result).
+- v. Select the title of all the papers co-authored by the author ‘Victor’ (the papers where
+‘Victor’ is the only author should not be part of the result).
