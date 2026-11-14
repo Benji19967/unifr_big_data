@@ -51,5 +51,6 @@ name is ‘Alex’ or ‘Alexander’.
   - `psql -d unifr_big_data < assignments/01/queries/iii.sql` 
 - iv. Create a view PublishesIn(authorID, confID) containing all the pairs (authorID,
 confID) such that there is at least one publication by authorID accepted at confID.
+  - `psql -d unifr_big_data < assignments/01/queries/iv.sql` 
 - v. Select the title of all the papers co-authored by the author ‘Alex’ (the papers where
 ‘Alex’ is the only author should not be part of the result).
