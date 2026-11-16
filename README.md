@@ -12,9 +12,24 @@ Launch the containers:
 docker compose up
 ```
 
+Restore the data at `/tmp/dvdrental` inside the `pg-dvdrental` container into the `dvdrental` database.
+```
+docker exec pg-dvdrental pg_restore -U postgres -d dvdrental /tmp/dvdrental
+```
+
 Execute commands inside the container:
 ```
 docker exec pg-dvdrental psql -U postgres --list
+```
+
+Enter a container:
+```
+docker exec -it pg-dvdrental /bin/sh
+```
+
+Inside the container:
+```
+psql -U postgres -d dvdrental
 ```
 
 ### PgAdmin
