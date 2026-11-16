@@ -5,7 +5,17 @@ Repo for resources for course Big Data Infrastructures at the University of Frib
 
 ## Docker Compose
 
-- Launch a `postgres` DB instance and `pgadmin` in containers, see: `docker-compose.yaml`.
+Launch a `postgres` DB instance and `pgadmin` in containers, see: `docker-compose.yaml`.
+
+Launch the containers:
+```
+docker compose up
+```
+
+Execute commands inside the container:
+```
+docker exec pg-dvdrental psql -U postgres --list
+```
 
 ### PgAdmin
 
