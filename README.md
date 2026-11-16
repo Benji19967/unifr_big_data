@@ -3,6 +3,30 @@
 Repo for resources for course Big Data Infrastructures at the University of Fribourg
 
 
+## Docker Compose
+
+- Launch a `postgres` DB instance and `pgadmin` in containers, see: `docker-compose.yaml`.
+
+### PgAdmin
+
+Open on `localhost:5050`
+
+In `General` tab:
+
+- Name: Tutorial Server (random name for server)
+
+In `Connection` tab:
+- Host name/adress: (in this example we run postgres in a docker container)
+  - If docker container: `postgres` (name of container, defined in `docker-compose.yaml`) 
+  - If server: `<IP address>`
+  - If local: `localhost`
+- Port: `5432`
+- Maintenance database: `dvdrental`
+- Username: `postgres`
+- Password: `postgres`
+
+==> Starts a connection with `Tutorial Server`.
+
 ## PSQL
 
 ```
