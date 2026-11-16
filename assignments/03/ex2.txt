@@ -1,0 +1,3 @@
+redis-cli HGET book:12 title
+redis-cli HKEYS book:24
+redis-cli HSET book:48 publication_year 2024
