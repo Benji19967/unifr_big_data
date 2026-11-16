@@ -10,6 +10,8 @@ mise run redis-load
 mise run redis-stop
 ```
 
+and `mise tasks` to get reminded of the available tasks.
+
 ## Running manual commands
 
 ### Launch a server
