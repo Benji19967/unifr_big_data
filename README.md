@@ -32,6 +32,12 @@ Inside the container:
 psql -U postgres -d dvdrental
 ```
 
+Run a query inside the container contained in an `.sql` file:
+```
+docker exec -i pg-dvdrental psql -U postgres -d dvdrental < assignments/02/queries/i.sql
+```
+where `-i` passes stdin to the container.
+
 ### PgAdmin
 
 Open on `localhost:5050`
