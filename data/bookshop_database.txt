@@ -1,0 +1,201 @@
+HSET book:0 title "Baroque Explorations: Artists and Empires" author "Evelyn Renard" original_language EN pages 452 publication_year 2017 isbn 978-3-16-148410-0
+ZADD stock 14 book:0
+HSET book:1 title "Grundlagen der Neurogenetik" author "Dr. Hans Richter" original_language DE pages 752 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 10 book:1
+HSET book:2 title "Mysteries of the Silent Ocean" author "Julia Starks" original_language EN pages 372 publication_year 2007 isbn 978-3-16-148410-0
+ZADD stock 7 book:2
+HSET book:3 title "Algorithms of the Mind" author "Alexandra I. Turing" original_language EN pages 639 publication_year 1937 isbn 978-3-16-148410-0
+ZADD stock 27 book:3
+HSET book:4 title "Harmonies and Dissonance: Exploring Tonal Structures" author "Elisabeth A. Weber" original_language DE pages 432 publication_year 1998 isbn 978-3-16-148410-0
+ZADD stock 28 book:4
+HSET book:5 title "Baroque Expressions: Sculpture and Conflict" author "Henriette R. Lefebvre" original_language FR pages 452 publication_year 1987 isbn 978-1-234-56789-7
+ZADD stock 26 book:5
+HSET book:6 title "Legislative Landscapes: Exploring Legal Boundaries" author "Alexandra Vogel" original_language DE pages 879 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 14 book:6
+HSET book:7 title "The Aesthetics of Renaissance Marble" author "Helena von Ritz" original_language EN pages 452 publication_year 2017 isbn 978-3-16-148410-0
+ZADD stock 35 book:7
+HSET book:8 title "The Enigma of the Sapphire Brooch" author "Emilia Leclair" original_language FR pages 324 publication_year 1986 isbn 978-3-16-148410-0
+ZADD stock 10 book:8
+HSET book:9 title "Grundlagen der Neurochirurgie" author "Dr. Maximilian Vogel" original_language DE pages 722 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 24 book:9
+HSET book:10 title "Quantum Mechanics Unveiled" author "Dr. Elise Kaplan" original_language EN pages 950 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 23 book:10
+HSET book:11 title "Echoes of Eternity" author "Emilia K. Rosenthal" original_language DE pages 352 publication_year 1939 isbn 978-1-56619-909-4
+ZADD stock 7 book:11
+HSET book:12 title "The Shadows of Yesterday" author "Alexandra Dupont" original_language FR pages 342 publication_year 1906 isbn 978-3-16-148410-0
+ZADD stock 13 book:12
+HSET book:13 title "Glimpses of the Unseen: Art in the Age of Discovery" author "Helena R. Schwartz" original_language EN pages 389 publication_year 2015 isbn 978-0-387-29161-7
+ZADD stock 22 book:13
+HSET book:14 title "Principles of Neurogenetics" author "Dr. Elsa Schneider" original_language DE pages 856 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 7 book:14
+HSET book:15 title "The Aesthetics of Renaissance Marvels" author "Helena van Eckhausen" original_language EN pages 422 publication_year 1995 isbn 978-3-16-148410-0
+ZADD stock 21 book:15
+HSET book:16 title "Legale Dynamiken: Ein interdisziplinärer Zugang" author "Dr. Maximilian Vogel" original_language DE pages 352 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 10 book:16
+HSET book:17 title "Algorithms of the Mind" author "Maximilian Vogel" original_language EN pages 625 publication_year 2008 isbn 978-3-16-148410-0
+ZADD stock 13 book:17
+HSET book:18 title "The Whispers of the Fallen Forest" author "Elara Moreau" original_language FR pages 342 publication_year 2024 isbn 978-3-16-148410-0
+ZADD stock 25 book:18
+HSET book:19 title "Mystery of the Vanishing Heirloom" author "Adrian LeClercq" original_language EN pages 342 publication_year 2011 isbn 978-1-250-73944-8
+ZADD stock 34 book:19
+HSET book:20 title "The Whispers of the Fallen Star" author "Emilia F. Thorne" original_language EN pages 342 publication_year 1937 isbn 978-3-16-148410-0
+ZADD stock 11 book:20
+EXPIRE book:20 300
+HSET book:21 title "Principles of Quantum Mechanics" author "Alexander C. Stone" original_language EN pages 652 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 19 book:21
+HSET book:22 title "Mysteries of the Silent Forest" author "Elena Moreau" original_language FR pages 342 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 22 book:22
+HSET book:23 title "Art in the Shadow: Gothic Sculpture" author "Eleanor A. Sutherland" original_language EN pages 436 publication_year 2017 isbn 978-3-16-148410-0
+ZADD stock 11 book:23
+HSET book:24 title "The Silent Shadow" author "Eleanor Dubois" original_language FR pages 342 publication_year 1910 isbn 2-86705-542-3
+ZADD stock 15 book:24
+HSET book:25 title "The Luminous Canvas: Light and Shadow in Baroque Painting" author "Elisabeth G. Volkmann" original_language DE pages 422 publication_year 1987 isbn 3-598-21500-2
+ZADD stock 11 book:25
+HSET book:26 title "Harmonies Beyond Borders" author "Elisabeth Vogler" original_language FR pages 342 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 15 book:26
+HSET book:27 title "The Silent Dilemma" author "Margot V. Bellingham" original_language EN pages 342 publication_year 1978 isbn 978-3-16-148410-0
+ZADD stock 19 book:27
+HSET book:28 title "Quantum Mechanics: The Theoretical Minimum" author "Dr. Helga Schwartz" original_language EN pages 672 publication_year 1932 isbn 978-3-16-148410-0
+ZADD stock 24 book:28
+HSET book:29 title "Harmonics of the Renaissance" author "Elisabeth Freitag" original_language DE pages 452 publication_year 2015 isbn 978-3-16-148410-0
+ZADD stock 8 book:29
+HSET book:30 title "The Aesthetics of Renaissance Marvels" author "Claudia E. Lorraine" original_language EN pages 452 publication_year 1989 isbn 0-19-284219-6
+ZADD stock 5 book:30
+HSET book:31 title "The Whispering Shadows" author "Elena Moreau" original_language FR pages 342 publication_year 1919 isbn 978-3-16-148410-0
+ZADD stock 17 book:31
+HSET book:32 title "Murder at the Chancellor’s Villa" author "Eleanor G. Haverford" original_language EN pages 387 publication_year 1921 isbn 978-3-16-148410-0
+ZADD stock 25 book:32
+HSET book:33 title "Advances in Virotherapy" author "Dr. Emilie Bauer-Schmidt" original_language DE pages 634 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 19 book:33
+HSET book:34 title "Algorithms Unlocked" author "Thomas H. Cormen" original_language EN pages 240 publication_year 2013 isbn 978-0262518802
+ZADD stock 10 book:34
+HSET book:35 title "The Unseen Hand: Political Strategies behind Closed Doors" author "Maximilian Vogel" original_language DE pages 389 publication_year 2024 isbn 978-3-16-148410-0
+ZADD stock 21 book:35
+HSET book:36 title "A Vision for the Future: The Untold Story of Jonathan K. Bartholomew" author "Helena S. Richardson" original_language EN pages 432 publication_year 1950 isbn 978-3-16-148410-0
+ZADD stock 24 book:36
+HSET book:37 title "The Maverick of Mackleton" author "Alexandra Dupont" original_language FR pages 342 publication_year 1973 isbn 978-3-16-148410-0
+ZADD stock 6 book:37
+HSET book:38 title "The Unseen Diplomat: Risks and Triumphs" author "Maximilian von Hinterberg" original_language DE pages 387 publication_year 2011 isbn 978-3-16-148410-0
+ZADD stock 12 book:38
+HSET book:39 title "Understanding Quantum Mechanics" author "Dr. Alexander Stein" original_language EN pages 624 publication_year 1921 isbn 978-3-16-148410-0
+ZADD stock 14 book:39
+HSET book:40 title "Harmonies of the High Seas: A Maritime Approach to Musical Theory" author "Elena Richter" original_language DE pages 352 publication_year 2019 isbn 978-3-16-148410-0
+ZADD stock 6 book:40
+HSET book:41 title "Triumphs and Trials: The Story of Johann Schmidt" author "Emilie Dubois" original_language FR pages 365 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 11 book:41
+HSET book:42 title "Algorithms Unlocked" author "Thomas H. Cormen" original_language EN pages 240 publication_year 2012 isbn 978-0262518802
+ZADD stock 35 book:42
+HSET book:43 title "Shadows of Infinity" author "Alexandra R. Brandt" original_language EN pages 372 publication_year 1970 isbn 978-3-16-148410-0
+ZADD stock 8 book:43
+HSET book:44 title "The Whispers of the Ancients" author "Eleanor von Adlerstein" original_language DE pages 342 publication_year 2012 isbn 978-3-16-148410-0
+ZADD stock 31 book:44
+HSET book:45 title "Quantum Mechanics: An Introductory Framework" author "Dr. Emilie Duval" original_language FR pages 672 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 31 book:45
+HSET book:46 title "Whispers through Time" author "Amanda J. Wunderly" original_language EN pages 342 publication_year 1905 isbn 978-3-16-148410-0
+ZADD stock 25 book:46
+HSET book:47 title "The Whispers of Time" author "Julian L. Pritchard" original_language EN pages 328 publication_year 1933 isbn 978-0-306-40615-7
+ZADD stock 35 book:47
+HSET book:48 title "The Enigma of the Lighthouse" author "Elisabeth Vogler" original_language EN pages 342 publication_year 1924 isbn 978-3-16-148410-0
+ZADD stock 20 book:48
+HSET book:49 title "Mysteries of the Silent Shore" author "Eloise Dupont" original_language FR pages 342 publication_year 1951 isbn 978-0-241-98424-3
+ZADD stock 35 book:49
+HSET book:50 title "The Shadows of Yesterday" author "Emilia Dubois" original_language FR pages 342 publication_year 1931 isbn 978-3-16-148410-0
+ZADD stock 16 book:50
+HSET book:51 title "The Echoing Conundrum" author "Harriet M. Welsch" original_language EN pages 342 publication_year 1987 isbn 978-3-16-148410-0
+ZADD stock 16 book:51
+HSET book:52 title "Quantum Mechanics: The Theoretical Minimum" author "Dr. Lena Schultz" original_language DE pages 672 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 8 book:52
+HSET book:53 title "Whispers of the Ancient World" author "Emilia Schwarz" original_language DE pages 342 publication_year 1903 isbn 978-3-16-148410-0
+ZADD stock 12 book:53
+HSET book:54 title "Algorithms in Quantum Computing" author "Leonard Schäfer" original_language EN pages 389 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 32 book:54
+HSET book:55 title "Murder on the Blue Express" author "Henrietta R. DuBois" original_language FR pages 284 publication_year 1934 isbn 2-123456-47-9
+ZADD stock 31 book:55
+HSET book:56 title "Shadows of Time" author "Eleanor M. Rigby" original_language EN pages 325 publication_year 1955 isbn 978-3-16-148410-0
+ZADD stock 20 book:56
+HSET book:57 title "The Whispers of the Ancients" author "Juliane Vogler" original_language DE pages 342 publication_year 1966 isbn 3-598-21500-2
+ZADD stock 34 book:57
+HSET book:58 title "Quantum Mechanics Unveiled" author "Charlotte Zweistein" original_language EN pages 672 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 8 book:58
+HSET book:59 title "The Whispering Shadows" author "Elena Moreau" original_language FR pages 384 publication_year 2014 isbn 978-3-16-148410-0
+ZADD stock 32 book:59
+HSET book:60 title "Advanced Algorithms: Complexity and Optimization" author "Emilia Kästner" original_language DE pages 842 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 11 book:60
+HSET book:61 title "Quantum Mechanics: An Accessible Introduction" author "Eleanor Hirsch" original_language EN pages 672 publication_year 2021 isbn 978-0-12-821968-7
+ZADD stock 11 book:61
+HSET book:62 title "The Unseen Leader: Journey into Politics" author "Frederic Ashwood" original_language EN pages 387 publication_year 1910 isbn 978-3-16-148410-0
+ZADD stock 13 book:62
+HSET book:63 title "Fundamentals of Quantum Computing" author "Dr. Clara R. Schmidt" original_language EN pages 950 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 19 book:63
+HSET book:64 title "Gothic Intricacy: A Study of Cathedral Art" author "Helena Dürr" original_language DE pages 452 publication_year 1997 isbn 3-86541-568-2
+ZADD stock 27 book:64
+HSET book:65 title "The Whispering Shadows" author "Henrietta Clarkson" original_language EN pages 378 publication_year 1944 isbn 978-3-16-148410-0
+ZADD stock 33 book:65
+HSET book:66 title "Harmonies of Silence: Exploring Tacet Moments" author "Evelyn Richter" original_language DE pages 452 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 32 book:66
+HSET book:67 title "The Shadows of Yesterday" author "Evelyn S. Lightheart" original_language EN pages 342 publication_year 1997 isbn 978-1-56619-909-4
+ZADD stock 28 book:67
+HSET book:68 title "Clinical Anomalies in Neurology" author "Dr. Henrik Müller" original_language DE pages 359 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 8 book:68
+HSET book:69 title "Harmonies Unveiled: A Journey through Tonal Spaces" author "Eloise Schmidt" original_language EN pages 382 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 28 book:69
+HSET book:70 title "The Intrigues of Power" author "Isabella Vogel" original_language FR pages 389 publication_year 2025 isbn 978-3-16-148410-0
+ZADD stock 12 book:70
+HSET book:71 title "Shadows of Time" author "Evelyn Hartmann" original_language DE pages 387 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 29 book:71
+HSET book:72 title "Algorithms: The Deep Dive" author "Elizabeth Clarke" original_language EN pages 629 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 33 book:72
+HSET book:73 title "Algorithms Unveiled: A Journey Through Complexity" author "Amelie Zimmermann" original_language DE pages 672 publication_year 1991 isbn 978-3-16-148410-0
+ZADD stock 30 book:73
+HSET book:74 title "The Unseen Path: A Life Less Ordinary" author "Alexander T. Fringewood" original_language EN pages 452 publication_year 2004 isbn 978-3-16-148410-0
+ZADD stock 9 book:74
+HSET book:75 title "The Enigma of the Stars" author "Julianne Dupont" original_language FR pages 432 publication_year 1975 isbn 978-3-16-148410-0
+ZADD stock 26 book:75
+HSET book:76 title "Mysteries of the Silent Woods" author "Elena Moreau" original_language FR pages 387 publication_year 1996 isbn 978-3-16-148410-0
+ZADD stock 19 book:76
+HSET book:77 title "Secrets of the Silent Forest" author "Eleanor Fournier" original_language FR pages 342 publication_year 1929 isbn 978-3-16-148410-0
+ZADD stock 28 book:77
+HSET book:78 title "Murder at the Chancellor’s Gala" author "Elisabeth Vogt" original_language DE pages 352 publication_year 1938 isbn 978-3-16-148410-0
+ZADD stock 29 book:78
+HSET book:79 title "Quantum Mechanics: The Theoretical Minimum" author "Dr. Leo Spatz" original_language EN pages 672 publication_year 1991 isbn 978-3-16-148410-0
+ZADD stock 21 book:79
+HSET book:80 title "Clinical Explorations in Neurological Dynamics" author "Dr. Helena Schwartz" original_language EN pages 856 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 7 book:80
+HSET book:81 title "Essentials of Neurogenic Pathologies" author "Dr. Helena Schwartz" original_language EN pages 624 publication_year 2017 isbn 978-3-16-148410-0
+ZADD stock 15 book:81
+HSET book:82 title "Principles of Neurocardiology" author "Dr. Emilie Schmidt" original_language DE pages 452 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 28 book:82
+HSET book:83 title "Data Structures in Quantum Computing" author "Helmut Schwartz" original_language DE pages 452 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 24 book:83
+HSET book:84 title "Mysteries of the Silent Shores" author "Emilia Beaumont" original_language EN pages 342 publication_year 1987 isbn 978-3-16-148410-0
+ZADD stock 11 book:84
+HSET book:85 title "Harmony and Dissonance: A Modern Approach" author "Evelyn Richter" original_language EN pages 452 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 26 book:85
+HSET book:86 title "The Unseen Hand of Progress" author "Johannes Van Der Meer" original_language EN pages 342 publication_year 1952 isbn 978-3-16-148410-0
+ZADD stock 15 book:86
+HSET book:87 title "Harmonies Unveiled: A Journey Through Melodic Theory" author "Evelyn A. Cordes" original_language EN pages 452 publication_year 2017 isbn 978-0-306-40615-7
+ZADD stock 35 book:87
+HSET book:88 title "The Unseen Path: A Journey to the Capitol" author "Alexandra K. Winter" original_language EN pages 342 publication_year 1991 isbn 978-3-16-148410-0
+ZADD stock 7 book:88
+HSET book:89 title "Principles of Neurogenetics" author "Dr. Annette Schwarz" original_language EN pages 624 publication_year 2018 isbn 978-0-262-04358-9
+ZADD stock 21 book:89
+HSET book:90 title "Fundamentals of Quantum Physics" author "Dr. Elena Schwarz" original_language EN pages 452 publication_year 2018 isbn 978-3-16-148410-0
+ZADD stock 31 book:90
+HSET book:91 title "Algorithms of the Midnight Sun" author "Elena Schwarz" original_language EN pages 659 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 16 book:91
+HSET book:92 title "Fundamentals of Quantum Mechanics" author "Dr. Clara N. Estevez" original_language EN pages 624 publication_year 2019 isbn 978-0134697002
+ZADD stock 22 book:92
+HSET book:93 title "Harmonies Beyond Borders: A Journey" author "Elena Müller" original_language DE pages 451 publication_year 2005 isbn 978-3-16-148410-0
+ZADD stock 33 book:93
+HSET book:94 title "Illuminated Expressions: Medieval Manuscript Art" author "Eleanor Vaughn" original_language EN pages 389 publication_year 2012 isbn 978-3-16-148410-0
+ZADD stock 16 book:94
+HSET book:95 title "Medical Mysteries: A Journey Through the Rarest Cases" author "Dr. Elisa Frederiksen" original_language EN pages 452 publication_year 2021 isbn 978-0-306-40615-7
+ZADD stock 26 book:95
+HSET book:96 title "Quantum Computing: A Practical Approach" author "Jurgen Schmidhuber" original_language EN pages 452 publication_year 2021 isbn 978-0262039253
+ZADD stock 5 book:96
+HSET book:97 title "The Enigma of the Scarlet Shadow" author "Emilia LeBlanc" original_language FR pages 342 publication_year 2021 isbn 978-3-16-148410-0
+ZADD stock 26 book:97
+HSET book:98 title "The Echoes of the Lost" author "Genevieve Roux" original_language FR pages 342 publication_year 1928 isbn 978-3-16-148410-0
+ZADD stock 32 book:98
+HSET book:99 title "Harmonies Beyond Borders" author "Elena Richter" original_language DE pages 382 publication_year 2017 isbn 978-3-16-148410-0
+ZADD stock 28 book:99
