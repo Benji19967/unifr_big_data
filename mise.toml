@@ -1,0 +1,11 @@
+[tools]
+"conda:redis-server" = "8.10.3"
+
+[tasks.redis-start]
+run = "redis-server --daemonize yes --dir /tmp"
+
+[tasks.redis-load]
+run = "redis-cli < data/bookshop_database.txt"
+
+[tasks.redis-stop]
+run = "redis-cli shutdown"

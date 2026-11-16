@@ -1,6 +1,18 @@
 # Redis
 
-## Launch a server
+## Using [mise](https://mise.jdx.dev/) tasks
+
+```
+mise trust && mise install
+mise run redis-start
+mise run redis-load
+...redis-cli commands...
+mise run redis-stop
+```
+
+## Running manual commands
+
+### Launch a server
 
 Launch a redis server instance, `/tmp` is where the `dump.rdb` data will be dumped on shutdown.
 ```
@@ -15,20 +27,20 @@ redis-server --daemonize yes --dir /tmp
 
 Use `--dir ~/.local/share/redis` for the data to survive a reboot.
 
-## Load the data
+### Load the data
 
 ```
 redis-cli < data/bookshop_database.txt
 ```
 
-## Check it worked
+### Check it worked
 
 ```
 redis-cli DBSIZE              # expect 101
 redis-cli HGETALL book:0
 ```
 
-## Shutdown the server
+### Shutdown the server
 
 ```
 redis-cli shutdown
