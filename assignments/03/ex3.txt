@@ -1,0 +1,4 @@
+redis-cli ZRANGE stock 0 4 WITHSCORES
+redis-cli ZRANGE stock 0 4 REV WITHSCORES
+redis-cli ZRANGE stock 20 30 BYSCORE WITHSCORES
+redis-cli ZRANGE stock 17 17 BYSCORE
