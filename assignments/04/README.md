@@ -44,14 +44,39 @@ MATCH (n)
 RETURN count(n) as nodes;
 ```
 
-List all nodes:
+Get all nodes:
 ```cypher
 MATCH (n)
 RETURN n as nodes;
 ```
 
+Get 1 node:
+```cypher
+MATCH (n)
+RETURN n as nodes LIMIT 1;
+```
+
 Get the names of all actors:
 ```cypher
-MATCH (n:Actor)
-RETURN n.name as nodes;
+MATCH (a:Actor)
+RETURN a.name as names;
+```
+
+Get the titles of all movies:
+```cypher
+MATCH (m:Movie)
+RETURN m.title as titles;
+```
+
+Get all the ACTED_IN relationships
+```cypher
+MATCH ()-[a:ACTED_IN]->()
+RETURN a;
+```
+
+Get all the movies in which "keanu" acted in and his role in the movie
+```cypher
+MATCH ()-[a:ACTED_IN]->()
+MATCH (actor:Actor)-[a:ACTED_IN]->(m:Movie) WHERE actor.personId = "keanu"
+RETURN m.title, a.role;
 ```
