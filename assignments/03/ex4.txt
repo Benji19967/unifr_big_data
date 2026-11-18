@@ -1,0 +1,1 @@
+There is an EXPIRE book:20 300 command, so that book will leave the DB after 5 minutes
