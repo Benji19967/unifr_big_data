@@ -1,5 +1,6 @@
 [tools]
 "conda:redis-server" = "8.10.3"
+neo4j = "latest"
 
 [tasks.redis-start]
 run = "redis-server --daemonize yes --dir /tmp"
