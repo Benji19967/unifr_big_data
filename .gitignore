@@ -3,6 +3,8 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+metastore_db/
+
 # C extensions
 *.so
 

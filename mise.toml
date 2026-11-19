@@ -1,6 +1,7 @@
 [tools]
 "conda:redis-server" = "8.10.3"
 neo4j = "latest"
+spark = "latest"
 
 [tasks.redis-start]
 run = "redis-server --daemonize yes --dir /tmp"
@@ -10,3 +11,7 @@ run = "redis-cli < data/bookshop_database.txt"
 
 [tasks.redis-stop]
 run = "redis-cli shutdown"
+
+[tasks.spark-start]
+run = "spark-sql"
+
